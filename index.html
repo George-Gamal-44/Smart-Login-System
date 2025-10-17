@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./images/right-from-bracket-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="bg">
+    <div class="row">
+        <div
+            class="col-11 col-sm-10 col-md-8 col-lg-5 p-3   shadow position-absolute top-0 bottom-0 end-0 left">
+            <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
+                <div class="container-lg p-2 p-sm-3 p-lg-5 text-center">
+                    <h2 class="text-white text-start display-6 fw-bolder m-0">
+                        Wlecome Back.
+                    </h2>
+                    <p class="text-white text-start fs-3 fw-semibold">
+                        Login to your account
+                    </p>
+                    <div class="form-floating mt-5">
+                        <input type="email" class="form-control bg-body-tertiary text-black rounded-pill"
+                            id="loginEmail" placeholder="" />
+                        <label for="loginEmail" class="text-primary"><i
+                                class="fa-solid fa-envelope text-primary me-2"></i>email</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <input type="password" class="form-control bg-body-tertiary text-black rounded-pill"
+                            id="loginPassword" placeholder="" />
+                        <label for="loginPassword" class="text-primary"><i
+                                class="fa-solid fa-lock text-primary me-2"></i>password</label>
+                    </div>
+                    <p id="alert" class="mt-3 fw-semibold"></p>
+                    <button onclick="login()" class="login button my-3 py-3 px-5 rounded-pill fw-bold ">
+                        Log In
+                    </button>
+                    <p class="m-0 text-white">
+                        Don’t have an account?
+                        <a href="sign up.html" class="uLine  fw-semibold">
+                            Sign Up</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
